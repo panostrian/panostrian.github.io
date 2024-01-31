@@ -1,4 +1,91 @@
 /*--------------------------------------------------------------
+# Skills and interests
+--------------------------------------------------------------*/
+.flex-container {
+  display: flex;
+}
+
+.skills-box {
+  border: 2px solid #000;
+  padding: 20px;
+  /* Ensures the box doesn't grow or shrink */
+}
+
+.info-area {
+  flex-grow: 1;
+  /* Takes up the remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+.info-box {
+  border: 2px solid #000;
+  padding: 20px;
+  /* Adjusts height and margins as needed */
+}
+
+.info-box ul {
+  list-style-type: disc;
+  /* Adds bullet points */
+  padding-left: 20px;
+  /* Adds space before the bullet points */
+  margin: 0;
+  overflow: auto;
+  max-height: 100%;
+}
+
+.info-box li {
+  margin-bottom: 5px;
+  /* Add other styles if needed */
+}
+
+Removes bottom margin from the last .skills-box */
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box
+}
+
+.skills {
+  text-align: right;
+  /* Right-align text */
+  padding-top: 10px;
+  /* Add top padding */
+  padding-bottom: 10px;
+  /* Add bottom padding */
+  color: white;
+  /* White text color */
+}
+
+.html {
+  width: 90%;
+  background-color: #04AA6D;
+}
+
+/* Green */
+
+.cpp {
+  width: 40%;
+  background-color: #2196F3;
+}
+
+/* Blue */
+
+.python {
+  width: 65%;
+  background-color: #f44336;
+}
+
+/* Red */
+
+.sql {
+  width: 80%;
+  background-color: #808080;
+}
+
+/* Dark Grey */
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
