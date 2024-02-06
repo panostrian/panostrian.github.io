@@ -8,7 +8,6 @@
 .skills-box {
   border: 2px solid #000;
   padding: 20px;
-  /* Ensures the box doesn't grow or shrink */
 }
 
 .info-area {
@@ -39,7 +38,6 @@
   /* Add other styles if needed */
 }
 
-Removes bottom margin from the last .skills-box */
 
 /* Make sure that padding behaves as expected */
 * {
@@ -55,6 +53,7 @@ Removes bottom margin from the last .skills-box */
   /* Add bottom padding */
   color: white;
   /* White text color */
+
 }
 
 .html {
@@ -93,6 +92,25 @@ Removes bottom margin from the last .skills-box */
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.download-cv-btn {
+  padding: 10px 15px;
+  background-color: #108d4a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.mini-btn {
+  padding: 2px 5px;
+  background-color: #058742;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -711,6 +729,16 @@ section .container {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.download-cv-btn {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  /* or any color you prefer */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -978,7 +1006,7 @@ section .container {
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   margin: 0 2px;
-  font-size: 28px;
+  font-size: 16px;
   display: inline-block;
   transition: 0.3s;
 }
