@@ -101,6 +101,14 @@
   font-weight: bold;
 }
 
+.mini-btn {
+  padding: 2px 5px;
+  background-color: #058742;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
 
 
 body {
