@@ -248,6 +248,11 @@ h6 {
 }
 
 /* Header Top */
+
+#header.header-top .image-container {
+  display: none;
+}
+
 #header.header-top {
   height: 80px;
   position: fixed;
